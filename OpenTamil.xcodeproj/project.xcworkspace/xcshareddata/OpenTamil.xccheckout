@@ -10,22 +10,26 @@
 	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>22E21BD994EE55D70E2E367F14F0986209C9DD51</key>
+		<string>https://github.com/losh11/OpenTamil.git</string>
 		<key>CEE35251B9B04AC0D17505C7DF28620EE53E694A</key>
 		<string>https://github.com/losh11/Litecoin.com.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>OpenTamil/OpenTamil.xcodeproj/project.xcworkspace</string>
+	<string>OpenTamil.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>22E21BD994EE55D70E2E367F14F0986209C9DD51</key>
+		<string>../..</string>
 		<key>CEE35251B9B04AC0D17505C7DF28620EE53E694A</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/losh11/Litecoin.com.git</string>
+	<string>https://github.com/losh11/OpenTamil.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>CEE35251B9B04AC0D17505C7DF28620EE53E694A</string>
+	<string>22E21BD994EE55D70E2E367F14F0986209C9DD51</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>CEE35251B9B04AC0D17505C7DF28620EE53E694A</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Repos</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>22E21BD994EE55D70E2E367F14F0986209C9DD51</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpenTamil</string>
 		</dict>
 	</array>
 </dict>

@@ -14,14 +14,14 @@ class KeyboardViewController: UIInputViewController {
 
     override func updateViewConstraints() {
         super.updateViewConstraints()
-    
-        // Add custom view sizing constraints here
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        var keyboard = UINib(nibName: "defaultKeyboard", bundle: nil)
+        var subset = keyboard.instantiateWithOwner(self, options: nil)
+        view = subset[0] as! UIView;
     }
 
 //    override func didReceiveMemoryWarning() {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B2C2D941B191ACD003B8B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C2D931B191ACD003B8B31 /* Assets.xcassets */; };
 		1BD10C961B19116700C63583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD10C951B19116700C63583 /* AppDelegate.swift */; };
 		1BD10C981B19116700C63583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD10C971B19116700C63583 /* ViewController.swift */; };
 		1BD10C9B1B19116700C63583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD10C991B19116700C63583 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		1BD10CAC1B19116700C63583 /* OpenTamilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD10CAB1B19116700C63583 /* OpenTamilTests.swift */; };
 		1BD10CBE1B19119700C63583 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD10CBD1B19119700C63583 /* KeyboardViewController.swift */; };
 		1BD10CC11B19119700C63583 /* Tamil.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1BD10CB91B19119700C63583 /* Tamil.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1BD10CC91B19151800C63583 /* setOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD10CC81B19151800C63583 /* setOne.xib */; };
+		1BD10CCD1B19153F00C63583 /* defaultKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD10CCC1B19153F00C63583 /* defaultKeyboard.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B2C2D931B191ACD003B8B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BD10C901B19116700C63583 /* OpenTamil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenTamil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD10C941B19116700C63583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BD10C951B19116700C63583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 		1BD10CB91B19119700C63583 /* Tamil.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Tamil.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD10CBC1B19119700C63583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BD10CBD1B19119700C63583 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		1BD10CC81B19151800C63583 /* setOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = setOne.xib; sourceTree = "<group>"; };
+		1BD10CCC1B19153F00C63583 /* defaultKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = defaultKeyboard.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +98,9 @@
 		1BD10C871B19116700C63583 = {
 			isa = PBXGroup;
 			children = (
+				1BD10CBA1B19119700C63583 /* Tamil */,
 				1BD10C921B19116700C63583 /* OpenTamil */,
 				1BD10CA81B19116700C63583 /* OpenTamilTests */,
-				1BD10CBA1B19119700C63583 /* Tamil */,
 				1BD10C911B19116700C63583 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -150,7 +156,10 @@
 		1BD10CBA1B19119700C63583 /* Tamil */ = {
 			isa = PBXGroup;
 			children = (
+				1B2C2D931B191ACD003B8B31 /* Assets.xcassets */,
+				1BD10CC81B19151800C63583 /* setOne.xib */,
 				1BD10CBD1B19119700C63583 /* KeyboardViewController.swift */,
+				1BD10CCC1B19153F00C63583 /* defaultKeyboard.xib */,
 				1BD10CBB1B19119700C63583 /* Supporting Files */,
 			);
 			path = Tamil;
@@ -284,6 +293,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD10CCD1B19153F00C63583 /* defaultKeyboard.xib in Resources */,
+				1B2C2D941B191ACD003B8B31 /* Assets.xcassets in Resources */,
+				1BD10CC91B19151800C63583 /* setOne.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +544,7 @@
 				1BD10CB11B19116700C63583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BD10CB21B19116700C63583 /* Build configuration list for PBXNativeTarget "OpenTamilTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +553,7 @@
 				1BD10CB41B19116700C63583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BD10CC21B19119700C63583 /* Build configuration list for PBXNativeTarget "Tamil" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +562,7 @@
 				1BD10CC41B19119700C63583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
