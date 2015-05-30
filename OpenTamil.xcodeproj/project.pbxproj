@@ -158,8 +158,8 @@
 			children = (
 				1B2C2D931B191ACD003B8B31 /* Assets.xcassets */,
 				1BD10CC81B19151800C63583 /* setOne.xib */,
-				1BD10CBD1B19119700C63583 /* KeyboardViewController.swift */,
 				1BD10CCC1B19153F00C63583 /* defaultKeyboard.xib */,
+				1BD10CBD1B19119700C63583 /* KeyboardViewController.swift */,
 				1BD10CBB1B19119700C63583 /* Supporting Files */,
 			);
 			path = Tamil;
