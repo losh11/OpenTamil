@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B2C2D941B191ACD003B8B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C2D931B191ACD003B8B31 /* Assets.xcassets */; };
+		1BA1BE031B3F39B600B41E7A /* testKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA1BE021B3F39B600B41E7A /* testKeyboard.xib */; };
 		1BD10C961B19116700C63583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD10C951B19116700C63583 /* AppDelegate.swift */; };
 		1BD10C981B19116700C63583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD10C971B19116700C63583 /* ViewController.swift */; };
 		1BD10C9B1B19116700C63583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD10C991B19116700C63583 /* Main.storyboard */; };
@@ -53,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		1B2C2D931B191ACD003B8B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BA1BE021B3F39B600B41E7A /* testKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testKeyboard.xib; sourceTree = "<group>"; };
 		1BD10C901B19116700C63583 /* OpenTamil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenTamil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD10C941B19116700C63583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BD10C951B19116700C63583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				1B2C2D931B191ACD003B8B31 /* Assets.xcassets */,
 				1BD10CC81B19151800C63583 /* setOne.xib */,
 				1BD10CCC1B19153F00C63583 /* defaultKeyboard.xib */,
+				1BA1BE021B3F39B600B41E7A /* testKeyboard.xib */,
 				1BD10CBD1B19119700C63583 /* KeyboardViewController.swift */,
 				1BD10CBB1B19119700C63583 /* Supporting Files */,
 			);
@@ -295,6 +298,7 @@
 			files = (
 				1BD10CCD1B19153F00C63583 /* defaultKeyboard.xib in Resources */,
 				1B2C2D941B191ACD003B8B31 /* Assets.xcassets in Resources */,
+				1BA1BE031B3F39B600B41E7A /* testKeyboard.xib in Resources */,
 				1BD10CC91B19151800C63583 /* setOne.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,6 +508,7 @@
 		1BD10CC31B19119700C63583 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -518,6 +523,7 @@
 		1BD10CC41B19119700C63583 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Tamil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
