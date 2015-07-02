@@ -74,7 +74,7 @@ class KeyboardViewController: UIInputViewController {
     @IBAction func didTapButtonWithValue(sender: AnyObject) {
         let button = sender.titleLabel!!.text
         let title = button as String!
-        let proxy = textDocumentProxy as! UITextDocumentProxy
+        let proxy = textDocumentProxy as UITextDocumentProxy
         
         switch title {
         case "⇤" :
@@ -357,7 +357,7 @@ class KeyboardViewController: UIInputViewController {
     @IBAction func createCharacter(sender: AnyObject) {
         let button = sender.titleLabel!!.text
         let title = button as String!
-        let proxy = textDocumentProxy as! UITextDocumentProxy
+        let proxy = textDocumentProxy as UITextDocumentProxy
         proxy.insertText(title)
     }
     
