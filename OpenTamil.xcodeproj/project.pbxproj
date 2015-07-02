@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B2C2D941B191ACD003B8B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C2D931B191ACD003B8B31 /* Assets.xcassets */; };
-		1BA1BE031B3F39B600B41E7A /* testKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA1BE021B3F39B600B41E7A /* testKeyboard.xib */; };
+		1BA1BE031B3F39B600B41E7A /* defaultKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA1BE021B3F39B600B41E7A /* defaultKeyboard.xib */; };
 		1BD10C961B19116700C63583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD10C951B19116700C63583 /* AppDelegate.swift */; };
 		1BD10C981B19116700C63583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD10C971B19116700C63583 /* ViewController.swift */; };
 		1BD10C9B1B19116700C63583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD10C991B19116700C63583 /* Main.storyboard */; };
@@ -17,8 +17,6 @@
 		1BD10CAC1B19116700C63583 /* OpenTamilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD10CAB1B19116700C63583 /* OpenTamilTests.swift */; };
 		1BD10CBE1B19119700C63583 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD10CBD1B19119700C63583 /* KeyboardViewController.swift */; };
 		1BD10CC11B19119700C63583 /* Tamil.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1BD10CB91B19119700C63583 /* Tamil.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1BD10CC91B19151800C63583 /* setOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD10CC81B19151800C63583 /* setOne.xib */; };
-		1BD10CCD1B19153F00C63583 /* defaultKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD10CCC1B19153F00C63583 /* defaultKeyboard.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +52,7 @@
 
 /* Begin PBXFileReference section */
 		1B2C2D931B191ACD003B8B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1BA1BE021B3F39B600B41E7A /* testKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testKeyboard.xib; sourceTree = "<group>"; };
+		1BA1BE021B3F39B600B41E7A /* defaultKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = defaultKeyboard.xib; sourceTree = "<group>"; };
 		1BD10C901B19116700C63583 /* OpenTamil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenTamil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD10C941B19116700C63583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BD10C951B19116700C63583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,8 +66,6 @@
 		1BD10CB91B19119700C63583 /* Tamil.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Tamil.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD10CBC1B19119700C63583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BD10CBD1B19119700C63583 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
-		1BD10CC81B19151800C63583 /* setOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = setOne.xib; sourceTree = "<group>"; };
-		1BD10CCC1B19153F00C63583 /* defaultKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = defaultKeyboard.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,9 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				1B2C2D931B191ACD003B8B31 /* Assets.xcassets */,
-				1BD10CC81B19151800C63583 /* setOne.xib */,
-				1BD10CCC1B19153F00C63583 /* defaultKeyboard.xib */,
-				1BA1BE021B3F39B600B41E7A /* testKeyboard.xib */,
+				1BA1BE021B3F39B600B41E7A /* defaultKeyboard.xib */,
 				1BD10CBD1B19119700C63583 /* KeyboardViewController.swift */,
 				1BD10CBB1B19119700C63583 /* Supporting Files */,
 			);
@@ -239,7 +233,8 @@
 		1BD10C881B19116700C63583 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Loshan Industries";
 				TargetAttributes = {
 					1BD10C8F1B19116700C63583 = {
@@ -259,7 +254,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = 1BD10C871B19116700C63583;
@@ -296,10 +290,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BD10CCD1B19153F00C63583 /* defaultKeyboard.xib in Resources */,
 				1B2C2D941B191ACD003B8B31 /* Assets.xcassets in Resources */,
-				1BA1BE031B3F39B600B41E7A /* testKeyboard.xib in Resources */,
-				1BD10CC91B19151800C63583 /* setOne.xib in Resources */,
+				1BA1BE031B3F39B600B41E7A /* defaultKeyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +379,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -402,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -433,6 +426,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -441,8 +435,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -456,6 +451,7 @@
 				INFOPLIST_FILE = OpenTamil/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "losh11.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -467,6 +463,7 @@
 				INFOPLIST_FILE = OpenTamil/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "losh11.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -484,7 +481,9 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = OpenTamilTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "losh11.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenTamil.app/OpenTamil";
 			};
@@ -499,7 +498,9 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = OpenTamilTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "losh11.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenTamil.app/OpenTamil";
 			};
@@ -514,7 +515,9 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tamil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "losh11.OpenTamil.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -525,7 +528,9 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Tamil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "losh11.OpenTamil.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

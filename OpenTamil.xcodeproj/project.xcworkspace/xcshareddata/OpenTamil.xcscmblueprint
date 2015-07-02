@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "22E21BD994EE55D70E2E367F14F0986209C9DD51",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "22E21BD994EE55D70E2E367F14F0986209C9DD51" : 0,
+    "CEE35251B9B04AC0D17505C7DF28620EE53E694A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A122F6B3-BDDB-4574-B9FE-1032070BDE5F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "22E21BD994EE55D70E2E367F14F0986209C9DD51" : "OpenTamil",
+    "CEE35251B9B04AC0D17505C7DF28620EE53E694A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OpenTamil",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OpenTamil.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/losh11\/OpenTamil.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "22E21BD994EE55D70E2E367F14F0986209C9DD51"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/losh11\/Litecoin.com.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CEE35251B9B04AC0D17505C7DF28620EE53E694A"
+    }
+  ]
+}
