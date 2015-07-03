@@ -362,6 +362,9 @@ class KeyboardViewController: UIInputViewController {
     }
     
     @IBAction func didTapFullReturn(sender: AnyObject) {
+        
+        // Resets view back to default
+        
         frontRowOne.hidden = false
         frontRowTwo.hidden = false
         frontRowThree.hidden = false
@@ -370,6 +373,23 @@ class KeyboardViewController: UIInputViewController {
         backRowTwo.hidden = true
         backRowThree.hidden = true
         backRowFour.hidden = true
+        
+        // Resets sub-layers
+        // Better load times and looks less glitchy
+        
+        textOne.setTitle("", forState: .Normal)
+        textTwo.setTitle("", forState: .Normal)
+        textThree.setTitle("", forState: .Normal)
+        textFour.setTitle("", forState: .Normal)
+        textFive.setTitle("", forState: .Normal)
+        textSix.setTitle("", forState: .Normal)
+        textSeven.setTitle("", forState: .Normal)
+        textEight.setTitle("", forState: .Normal)
+        textNine.setTitle("", forState: .Normal)
+        textTen.setTitle("", forState: .Normal)
+        textEleven.setTitle("", forState: .Normal)
+        textTwelve.setTitle("", forState: .Normal)
+        textLast.setTitle("", forState: .Normal)
     }
     
     @IBAction func didChangeKeyboard(sender: AnyObject) {

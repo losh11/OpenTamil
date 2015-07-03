@@ -7,7 +7,7 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>A122F6B3-BDDB-4574-B9FE-1032070BDE5F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>OpenTamil</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>22E21BD994EE55D70E2E367F14F0986209C9DD51</key>
@@ -16,7 +16,7 @@
 		<string>https://github.com/losh11/Litecoin.com.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>OpenTamil.xcodeproj/project.xcworkspace</string>
+	<string>OpenTamil.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>22E21BD994EE55D70E2E367F14F0986209C9DD51</key>
